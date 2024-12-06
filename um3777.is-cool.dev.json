@@ -1,0 +1,22 @@
+{
+    "description": "Project Description",
+    "domain": "is-not-a.dev",
+    "subdomain": "um3777",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "info@um3777.is-cool.dev.json"
+    },
+
+    "record": {
+        
+        "TXT": ["example_verification=1234567890"],
+        "CAA": [
+            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+        ],
+        
+    },
+
+    "proxied": false
+}
